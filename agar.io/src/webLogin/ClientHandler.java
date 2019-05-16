@@ -55,7 +55,7 @@ public class ClientHandler implements Runnable {
 						StringBuilder responseBuffer = new StringBuilder();
 						String str = "";
 						BufferedReader buf = new BufferedReader(
-								new FileReader(System.getProperty("user.dir") + "/src/web/login/templates/login.html"));
+								new FileReader(System.getProperty("user.dir") + "./src/templates/login.html"));
 
 						while ((str = buf.readLine()) != null) {
 							responseBuffer.append(str);
