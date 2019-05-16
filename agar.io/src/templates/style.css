@@ -1,0 +1,84 @@
+
+
+/*Titulo}*/
+
+p{
+	color : white;
+}
+
+
+.Parrafo{
+	border : 7px dotted;
+	margin: 10px;
+}
+
+
+.icesi_img{
+	width: 30%;
+	height: auto;
+	margin: auto;
+	display: block;
+}
+
+.datos_img{
+	width: 60%;
+	height: auto;
+	margin: auto;
+	display: block;
+
+}
+
+.titulo_tabla{
+	color: white;
+	text-align: center;
+}
+
+table{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	background: white; 
+	border: 1px solid #000;
+	
+}
+
+
+table td{
+	
+	text-align: center;
+
+}
+
+table tr:hover{
+	background: #ccc;
+}
+
+table td:hover{
+	background: #000;
+	color:white;
+}
+
+.formulario{
+	margin: 8%;
+	color: white;
+	text-align: center;
+	display: block;
+}
+
+form{
+	width: 25%;
+	border : 1px solid #ccc;
+	margin: 20px;
+	padding: 20px;
+}
+
+label{
+	font-size: 20px;
+	color: white;
+	width: 100px;
+}
+
+input{
+	margin-bottom: 20px;
+	width: 100%;
+}

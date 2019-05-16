@@ -83,7 +83,6 @@ public class ClientHandler implements Runnable {
 
 							buf = new BufferedReader(new FileReader(
 									System.getProperty("user.dir") + "/src/web/login/templates/validLogin.html"));
-
 						}
 
 						while ((str = buf.readLine()) != null) {
